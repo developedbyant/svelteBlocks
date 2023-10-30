@@ -1,0 +1,65 @@
+{
+    "navLinks": [
+        {
+            "text": "Home",
+            "href": "/",
+            "external": false
+        },
+        {
+            "text": "Documentation",
+            "href": "/docs",
+            "external": false
+        },
+        {
+            "text": "Test",
+            "href": "/test"
+        }
+    ],
+    "socialMedias": {
+        "twitter": "https://twitter.com/svelteCMS",
+        "github": "https://github.com/svelteCMS"
+    },
+    "kitDocs": {
+        "Introduction": [
+            {
+                "title": "Introduction",
+                "href": "/docs",
+                "description": "Blogging Like a Hacker"
+            }
+        ],
+        "Examples": [
+            {
+                "title": "Form example",
+                "href": "/docs/form",
+                "description": "How to create a from using svelte blocks (kitBlocks)."
+            }
+        ],
+        "Components": [
+            {
+                "title": "Button",
+                "href": "/docs/button",
+                "description": "Blogging Like a Hacker"
+            },
+            {
+                "title": "Input",
+                "href": "/docs/input",
+                "description": "Blogging Like a Hacker"
+            },
+            {
+                "title": "InputChips",
+                "href": "/docs/inputChips",
+                "description": "Blogging Like a Hacker"
+            },
+            {
+                "title": "Modal",
+                "href": "/docs/modal",
+                "description": "Styled modal for your svelte projects."
+            },
+            {
+                "title": "Switch",
+                "href": "/docs/switch",
+                "description": "Styled toggle switch for your svelte projects."
+            }
+        ]
+    }
+}
