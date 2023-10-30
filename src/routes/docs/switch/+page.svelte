@@ -8,18 +8,18 @@
     import Space from 'kitDocs/components/Space.svelte';
     import Code from 'kitDocs/components/Code.svelte';
     // custom code
-    import Switch from 'kitBlocks/Switch.svelte';
+    import Switch from 'svelteBlocks/components/Switch.svelte';
     let isDarkMode:boolean = false
 </script>
 
 <Header type="h1" text="Switch" />
-<Text>To get started with the switch component, import it from <InlineCode code="kitBlocks/Switch.svelte"/></Text>
+<Text>To get started with the switch component, import it from <InlineCode code="svelteBlocks/components/Switch.svelte"/></Text>
 <Switch bind:value={isDarkMode}/>
 <Space />
 <Header type="h2" text="Using Switch" />
 <Text>After importing Switch component add it to your svelte component follow by the value param.</Text>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">lang</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;ts&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">import</span><span style="color: var(--shiki-color-text)"> Switch </span><span style="color: var(--shiki-token-keyword)">from</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;kitBlocks/Switch.svelte&#39;</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span class="line"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">import</span><span style="color: var(--shiki-color-text)"> Switch </span><span style="color: var(--shiki-token-keyword)">from</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;svelteBlocks/components/Switch.svelte&#39;</span><span style="color: var(--shiki-color-text)">;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">&lt;/</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"></span>
 <span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-constant)">Switch</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">value</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&#123;</span><span style="color: var(--shiki-token-constant)">true</span><span style="color: var(--shiki-color-text)">}/&gt;</span></span></code></pre></Code>
@@ -28,7 +28,7 @@
 <Header type="h2" text="Binding value" />
 <Text>You can bind Switch value just like any other of our components, add the <InlineCode code="bind:value"/> follow by variable to bind.</Text>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">lang</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;ts&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">import</span><span style="color: var(--shiki-color-text)"> Switch </span><span style="color: var(--shiki-token-keyword)">from</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;kitBlocks/Switch.svelte&#39;</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span class="line"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">import</span><span style="color: var(--shiki-color-text)"> Switch </span><span style="color: var(--shiki-token-keyword)">from</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;svelteBlocks/components/Switch.svelte&#39;</span><span style="color: var(--shiki-color-text)">;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> isDarkMode</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-constant)">boolean</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">false</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">&lt;/</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"></span>

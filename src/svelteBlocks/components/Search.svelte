@@ -17,12 +17,12 @@
         gap: 10px;
         padding: 5px 10px;
         border-radius: 5px;
-        background-color: var(--kb-bg);
-        border: 1.5px solid var(--kb-border-color);
+        background-color: var(--sb-bg);
+        border: 1.5px solid var(--sb-border-color);
         transition: box-shadow ease-in-out 0.1s;
     }
     .search:focus-within{
-        box-shadow: 0 0 1px 1px var(--kb-border-color);
+        box-shadow: 0 0 1px 1px var(--sb-border-color);
     }
     .search input,.search input::placeholder{
         width: 100%;
@@ -31,12 +31,12 @@
         border: none;
         font-size: 15px;
         font-weight: 400;
-        color: var(--kb-text-color);
+        color: var(--sb-text-color);
     }
     .search input:focus{ outline: none; }
     .icon{
         width: 20px;
         height: 20px;
-        fill: var(--kb-icon-color);
+        fill: var(--sb-icon-color);
     }
 </style>

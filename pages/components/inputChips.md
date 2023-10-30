@@ -1,14 +1,14 @@
 ---
 layout: Components
 title: InputChips
-description: Blogging Like a Hacker
+description: Add a styled Input chips.
 ---
 ```js [CODE]
-    import InputChips from 'kitBlocks/InputChips.svelte';
+    import InputChips from 'svelteBlocks/components/InputChips.svelte';
     let names:string[] = [ "anthony","tony" ]
 ```
 # InputChips
-To get started with inputChips component, import it from `kitBlocks/InputChips.svelte`
+To get started with inputChips component, import it from `svelteBlocks/components/InputChips.svelte`
 ```svelte [ADD]
 <InputChips bind:value={names}/>
 ```
@@ -17,7 +17,7 @@ To get started with inputChips component, import it from `kitBlocks/InputChips.s
 After importing InputChips component add it to your svelte component follow by the value param.
 ```svelte
 <script lang="ts">
-    import InputChips from "kitBlocks/InputChips.svelte";
+    import InputChips from "svelteBlocks/components/InputChips.svelte";
 </script>
 
 <InputChips value={["hi","hello"]}/>
@@ -30,7 +30,7 @@ After importing InputChips component add it to your svelte component follow by t
 You can bind InputChips value just like any other of our components, add the `bind:value` follow by variable to bind.
 ```svelte
 <script lang="ts">
-    import InputChips from "kitBlocks/InputChips.svelte";
+    import InputChips from "svelteBlocks/components/InputChips.svelte";
     let names:string[] = [ "anthony","tony" ]
 </script>
 

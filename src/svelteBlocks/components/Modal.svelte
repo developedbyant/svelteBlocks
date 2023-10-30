@@ -4,7 +4,7 @@
     // click modal container to close it with animation
     export let modalDiv:HTMLDivElement|undefined = undefined
     import { createEventDispatcher } from "svelte";
-    import type { KBConfig } from "./+types";
+    import type { KBConfig } from "svelteBlocks/types";
     const dispatch = createEventDispatcher()
     let closed:boolean = false
     /** custom style */

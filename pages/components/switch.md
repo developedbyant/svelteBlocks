@@ -4,11 +4,11 @@ title: Switch
 description: Styled toggle switch for your svelte projects.
 ---
 ```js [CODE]
-    import Switch from 'kitBlocks/Switch.svelte';
+    import Switch from 'svelteBlocks/components/Switch.svelte';
     let isDarkMode:boolean = false
 ```
 # Switch
-To get started with the switch component, import it from `kitBlocks/Switch.svelte`
+To get started with the switch component, import it from `svelteBlocks/components/Switch.svelte`
 ```svelte [ADD]
 <Switch bind:value={isDarkMode}/>
 ```
@@ -17,7 +17,7 @@ To get started with the switch component, import it from `kitBlocks/Switch.svelt
 After importing Switch component add it to your svelte component follow by the value param.
 ```svelte
 <script lang="ts">
-    import Switch from 'kitBlocks/Switch.svelte';
+    import Switch from 'svelteBlocks/components/Switch.svelte';
 </script>
 
 <Switch value={true}/>
@@ -30,7 +30,7 @@ After importing Switch component add it to your svelte component follow by the v
 You can bind Switch value just like any other of our components, add the `bind:value` follow by variable to bind.
 ```svelte
 <script lang="ts">
-    import Switch from 'kitBlocks/Switch.svelte';
+    import Switch from 'svelteBlocks/components/Switch.svelte';
     let isDarkMode:boolean = false
 </script>
 

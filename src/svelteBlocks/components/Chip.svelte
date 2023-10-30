@@ -15,7 +15,7 @@
         padding: 5px 10px;
         border-radius: 4px;
         background-color: rgba(0,0,0,.3);
-        color: var(--kb-text-color);
+        color: var(--sb-text-color);
         font-size: 12px;
         font-weight: 500;
         transition: all ease-in-out 0.4s;
@@ -23,8 +23,8 @@
     }
     .chip:hover{
         transform: scale(1.05);
-        background-color: var(--kb-error-bg);
-        color: var(--kb-error-color);
+        background-color: var(--sb-error-bg);
+        color: var(--sb-error-color);
     }
     @keyframes fadeIn{
         from { opacity: 0; }

@@ -1,7 +1,7 @@
 <script lang="ts">
     export let value:boolean = false
     export let config:KBConfig['switch'] = { }
-    import type { KBConfig } from "./+types";
+    import type { KBConfig } from "svelteBlocks/types";
     /** Set value to false or true */
     const handleClick = ()=> value=!value 
     /** custom style */
@@ -20,8 +20,8 @@
         width: var(--size);
         min-height: calc(var(--size) / 2);
         height: calc(var(--size) / 2);
-        background: #65676b;
-        border: 1px solid var(--kb-border-color);
+        background: var(--sb-bg);
+        border: 1px solid var(--sb-border-color);
         display: block;
         border-radius: var(--borderRadius,100px);
         position: relative;
@@ -34,7 +34,7 @@
         transition: all ease-in-out 0.3s;
     }
     .switch.active{
-        background-color: var(--kb-bg);
+        background-color: var(--sb-main-color);
     }
     .switch.active .circle{
         transform: translateX(200%);

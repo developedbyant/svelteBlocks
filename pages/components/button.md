@@ -1,10 +1,10 @@
 ---
 layout: Components
 title: Button
-description: Blogging Like a Hacker
+description: Add a styled button.
 ---
 ```js [CODE]
-    import Button from 'kitBlocks/Button.svelte';
+    import Button from 'svelteBlocks/components/Button.svelte';
     let loading:boolean = false
     async function handleClick(){
         // set loading
@@ -16,16 +16,16 @@ description: Blogging Like a Hacker
     }
 ```
 # Button
-To add a styled button to your project run `npx kitblocks@latest add button`
+To add a styled button to your project run `npx svelte-blocks@latest button`
 ```svelte [ADD]
 <Button>Click</Button>
 ```
 
 ## Using component
-Import Button from kitBlocks `import Button from 'kitBlocks/Button.svelte'`
+Import Button from svelteBlocks `import Button from 'svelteBlocks/components/Button.svelte'`
 ```html
 <script lang="ts">
-    import Button from 'kitBlocks/Button.svelte';//[H]
+    import Button from 'svelteBlocks/components/Button.svelte';//[H]
 </script>
 
 <Button>Button</Button>

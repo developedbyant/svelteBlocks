@@ -1,23 +1,23 @@
 ---
 layout: Components
 title: Input
-description: Blogging Like a Hacker
+description: Add a styled input.
 ---
 ```js [CODE]
-    import Input from 'kitBlocks/Input.svelte';
+    import Input from 'svelteBlocks/components/Input.svelte';
     let inputValue:string = ""
 ```
 # Input
-To add a styled Input to your project run `npx kitblocks@latest add input`.
+To add a styled Input to your project run `npx svelte-blocks@latest input`.
 ```svelte [ADD]
 <Input type="input" placeholder="name..." bind:value={inputValue}/>
 ```
 
 ## Using input
-Import Input `import Input from 'kitBlocks/Input.svelte'`
+Import Input `import Input from 'svelteBlocks/components/Input.svelte'`
 ```svelte
 <script lang="ts">
-    import Input from 'kitBlocks/Input.svelte';
+    import Input from 'svelteBlocks/components/Input.svelte';
 </script>
 
 <Input type="input" placeholder="email..."/>
@@ -27,7 +27,7 @@ Import Input `import Input from 'kitBlocks/Input.svelte'`
 To bind input value just like any other components, add the `bind:value` to component.
 ```svelte
 <script lang="ts">
-    import Input from 'kitBlocks/Input.svelte';
+    import Input from 'svelteBlocks/components/Input.svelte';
     let inputValue:string = ""
 </script>
 

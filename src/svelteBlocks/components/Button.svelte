@@ -1,7 +1,7 @@
 <script lang="ts">
     export let loading:boolean = false
     export let config:KBConfig['button'] = { }
-    import type { KBConfig } from "./+types";
+    import type { KBConfig } from "svelteBlocks/types";
     let pressing:boolean = false
     /** add or remove press class */
     const handlePress = ()=> pressing = !pressing
@@ -22,8 +22,8 @@
         padding: 5px 15px;
         font-size: 15px;
         font-weight: 400;
-        background-color: var(--kb-button-bg);
-        color: var(--kb-button-color);
+        background-color: var(--sb-button-bg);
+        color: var(--sb-button-color);
         border-radius: 5px;
         transition: opacity 0.3s ease;
         display: flex;
@@ -41,14 +41,14 @@
     button.rounded{ border-radius: 50px; }
     button.outline{
         background-color: transparent;
-        border: 1.5px solid var(--kb-border-color);
+        border: 1.5px solid var(--sb-border-color);
     }
     /* on hover */
     button:hover { opacity: 80%; }
     .spinner {
         width:13px;
         height:13px;
-        border:var(--kb-button-color) 1.5px dashed;
+        border:var(--sb-button-color) 1.5px dashed;
         border-top:transparent 1.5px solid;
         border-radius: 50%;
         background-color: transparent;

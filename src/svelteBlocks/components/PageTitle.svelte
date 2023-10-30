@@ -23,7 +23,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        color: var(--kb-header-color);
+        color: var(--sb-header-color);
     }
     h2{
         font-weight: 900;
@@ -40,9 +40,9 @@
         text-align: center;
         font-size: 14px;
         font-weight: 600;
-        color: var(--kb-button-color);
-        background-color: var(--kb-button-bg);
-        box-shadow: var(--kb-shadow);
+        color: var(--sb-button-color);
+        background-color: var(--sb-button-bg);
+        box-shadow: var(--sb-shadow);
         transition: transform ease-in-out 0.3s;
         &:hover{
             transform: scale(1.05);

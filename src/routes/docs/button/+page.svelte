@@ -1,14 +1,14 @@
 <script lang="ts">
     import { metaTagsStore } from "kitDocs/stores";
     // set meta data
-    metaTagsStore.update(data=>{ data.title="Button";data.description="Blogging Like a Hacker"; return data })
+    metaTagsStore.update(data=>{ data.title="Button";data.description="Add a styled button."; return data })
     import Header from 'kitDocs/components/Header.svelte';
     import InlineCode from 'kitDocs/components/InlineCode.svelte';
     import Text from 'kitDocs/components/Text.svelte';
     import Space from 'kitDocs/components/Space.svelte';
     import Code from 'kitDocs/components/Code.svelte';
     // custom code
-    import Button from 'kitBlocks/Button.svelte';
+    import Button from 'svelteBlocks/components/Button.svelte';
     let loading:boolean = false
     async function handleClick(){
         // set loading
@@ -21,13 +21,13 @@
 </script>
 
 <Header type="h1" text="Button" />
-<Text>To add a styled button to your project run <InlineCode code="npx kitblocks@latest add button"/></Text>
+<Text>To add a styled button to your project run <InlineCode code="npx svelte-blocks@latest button"/></Text>
 <Button>Click</Button>
 <Space />
 <Header type="h2" text="Using component" />
-<Text>Import Button from kitBlocks <InlineCode code="import Button from &#39;kitBlocks/Button.svelte&#39;"/></Text>
+<Text>Import Button from svelteBlocks <InlineCode code="import Button from &#39;svelteBlocks/components/Button.svelte&#39;"/></Text>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">lang</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;ts&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
-<span class="line added"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">import</span><span style="color: var(--shiki-color-text)"> Button </span><span style="color: var(--shiki-token-keyword)">from</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;kitBlocks/Button.svelte&#39;</span><span style="color: var(--shiki-color-text)">;</span><span style="color: var(--shiki-token-comment)"></span></span>
+<span class="line added"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">import</span><span style="color: var(--shiki-color-text)"> Button </span><span style="color: var(--shiki-token-keyword)">from</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;svelteBlocks/components/Button.svelte&#39;</span><span style="color: var(--shiki-color-text)">;</span><span style="color: var(--shiki-token-comment)"></span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">&lt;/</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"></span>
 <span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">Button</span><span style="color: var(--shiki-color-text)">&gt;Button&lt;/</span><span style="color: var(--shiki-token-string-expression)">Button</span><span style="color: var(--shiki-color-text)">&gt;</span></span></code></pre></Code>

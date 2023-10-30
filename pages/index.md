@@ -1,74 +1,55 @@
 ---
 layout: Introduction
 title: Introduction
-description: Blogging Like a Hacker
+description: Introduction to svelteBlocks.
 ---
 ```js [CODE]
-    import Button from 'kitBlocks/Button.svelte'
+    import Button from 'svelteBlocks/components/Button.svelte'
 ```
-# Documentation
-```[WARNING]
-Before adding any components, add kitBlocks alias to your svelte.config.js,
-import kitBlocks style and add kitBlocks class to parent div.
-```
+# Introduction
+svelteBlocks is a collection of reuseable svelte components that you can add to your project without any external package needed.<br>
 
-```js
-// add kitBlocks alias svelte.config.js
+## Getting started
+To get started just run `svelte-blocks@latest` it will create the folder `src/svelteBlocks` where all your components will be added to.
+
+## Add alias
+After running `svelte-blocks@latest` you will need to add `svelteBlocks` alias to your `svelte.config.js` file.
+```ts
+import adapter from '@sveltejs/adapter-auto';
+import { vitePreprocess } from '@sveltejs/kit/vite';
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: vitePreprocess(),
 	kit: {
 		adapter: adapter(),
 		alias:{
-			kitBlocks:"src/kitBlocks/*"
+			svelteBlocks:"src/svelteBlocks/*",//[H]
 		}
 	}
 };
-```
-```html
-<script lang="ts">
-    // import kitBlocks style.css to layout
-    import"kitBlocks/styles.css"
-</script>
-```
-```html
-<!-- add kitBlocks to app layout -->
-<div class="app kitBlocks">
-    <!-- Your components -->
-</div>
+export default config;
 ```
 
-## Getting started
-To get started with kitBlocks, just run `npx kitblocks@latest add componentName`
+## Adding components
+To add a component run `svelte-blocks@latest` follow by component name.
 ```bash
-# Add button component
-npx kitblocks@latest add button
+svelte-blocks@latest button
 ```
-Or `npx kitblocks@latest` to display a list of all components or to search component.
+Or run `svelte-blocks@latest` to show all components.
+```bash
+svelte-blocks@latest
+```
 
-## Example
-Your layout should look something like this
-```html
+## Using components
+After adding a component you can use it by importing it from `svelteBlocks/components`.
+```svelte
 <script lang="ts">
-    import"kitBlocks/styles.css"
+    import Button from 'svelteBlocks/components/Button.svelte';//[H]
 </script>
 
-<div class="app kitBlocks">
-    <slot />
-</div>
+<Button>Button</Button>
 ```
-Import button component `import Button from 'kitBlocks/Button.svelte'`
-```html
-<script lang="ts">
-    import"kitBlocks/styles.css"
-    import Button from 'kitBlocks/Button.svelte'
-</script>
-
-<div class="app kitBlocks">
-    <!-- Added button -->
-    <Button>Button</Button>
-</div>
-```
-Output should look like this
+Button preview
 ```svelte [ADD]
 <Button>Button</Button>
 ```

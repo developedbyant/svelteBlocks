@@ -24,31 +24,24 @@
             {
                 "title": "Introduction",
                 "href": "/docs",
-                "description": "Blogging Like a Hacker"
-            }
-        ],
-        "Examples": [
-            {
-                "title": "Form example",
-                "href": "/docs/form",
-                "description": "How to create a from using svelte blocks (kitBlocks)."
+                "description": "Introduction to svelteBlocks."
             }
         ],
         "Components": [
             {
                 "title": "Button",
                 "href": "/docs/button",
-                "description": "Blogging Like a Hacker"
+                "description": "Add a styled button."
             },
             {
                 "title": "Input",
                 "href": "/docs/input",
-                "description": "Blogging Like a Hacker"
+                "description": "Add a styled input."
             },
             {
                 "title": "InputChips",
                 "href": "/docs/inputChips",
-                "description": "Blogging Like a Hacker"
+                "description": "Add a styled Input chips."
             },
             {
                 "title": "Modal",

@@ -46,14 +46,14 @@
 
 <style>
     .inputChips{
-        background-color: var(--kb-bg);
+        background-color: var(--sb-bg);
         border-radius: 5px;
-        box-shadow: 1px 2px 3px var(--kb-shadow);
+        box-shadow: 1px 2px 3px var(--sb-shadow);
         display: flex;
         flex-direction: column;
         gap: 10px;
         padding: 10px;
-        color: var(--kb-text-color);
+        color: var(--sb-text-color);
         max-height: 45px;
         transition: max-height ease-in-out 0.5s;
     }
@@ -70,11 +70,11 @@
         font-weight: 400;
     }
     .error{
-        background-color: var(--kb-error-bg);
-        color: var(--kb-error-color);
+        background-color: var(--sb-error-bg);
+        color: var(--sb-error-color);
     }
     .focus{
-        box-shadow: 0 0 1px 1px var(--kb-main-color);
+        box-shadow: 0 0 1px 1px var(--sb-main-color);
     }
     .chips{
         display: flex;
@@ -88,7 +88,7 @@
         padding: 5px 10px;
         border-radius: 4px;
         background-color: rgba(0,0,0,.3);
-        color: var(--kb-text-color);
+        color: var(--sb-text-color);
         font-size: 12px;
         font-weight: 500;
         transition: all ease-in-out 0.4s;
@@ -96,8 +96,8 @@
     }
     .chip:hover{
         transform: scale(1.05);
-        background-color: var(--kb-error-bg);
-        color: var(--kb-error-color);
+        background-color: var(--sb-error-bg);
+        color: var(--sb-error-color);
     }
     @keyframes fadeIn{
         from { opacity: 0; }

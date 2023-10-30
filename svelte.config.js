@@ -7,7 +7,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias:{
-			kitBlocks:"src/kitBlocks/*",
+			svelteBlocks:"src/svelteBlocks/*",
 			kitDocs:"src/kitDocs/*"
 		}
 	}

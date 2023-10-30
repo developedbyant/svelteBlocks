@@ -1,7 +1,7 @@
 <script lang="ts">
     export let data
     import"../app.css"
-    import"kitBlocks/style.css"
+    import"svelteBlocks/style.css"
     import"kitDocs/styles/app.css"
     import"kitDocs/styles/shiki.css"
     import { page } from "$app/stores";

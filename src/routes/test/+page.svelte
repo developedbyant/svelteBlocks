@@ -1,12 +1,12 @@
 <script lang="ts">
-    import PageTitle from 'kitBlocks/PageTitle.svelte';
-    import Flex from 'kitBlocks/Flex.svelte'
-    import Input from 'kitBlocks/Input.svelte'
-    import Button from 'kitBlocks/Button.svelte'
-    import InputChips from "kitBlocks/InputChips.svelte";
-    import Switch from 'kitBlocks/Switch.svelte';
-    import Modal from 'kitBlocks/Modal.svelte';
-    import Search from 'kitBlocks/Search.svelte';
+    import PageTitle from 'svelteBlocks/components/PageTitle.svelte';
+    import Flex from 'svelteBlocks/components/Flex.svelte'
+    import Input from 'svelteBlocks/components/Input.svelte'
+    import Button from 'svelteBlocks/components/Button.svelte'
+    import InputChips from "svelteBlocks/components/InputChips.svelte";
+    import Switch from 'svelteBlocks/components/Switch.svelte';
+    import Modal from 'svelteBlocks/components/Modal.svelte';
+    import Search from 'svelteBlocks/components/Search.svelte';
     //
     let modalOpen = false
 </script>
