@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { metaTagsStore } from "kitDocs/stores";
+    import { metaTagsStore } from "kitDocs/lib/stores";
     // set meta data
     metaTagsStore.update(data=>{ data.title="Modal";data.description="Styled modal for your svelte projects."; return data })
     import Header from 'kitDocs/components/Header.svelte';
@@ -18,13 +18,15 @@
     const config={ open:"left",maxHeight:"100vh" }
 </script>
 
-<Header type="h1" text="Modal" />
-<Text>To get started, import <InlineCode code="Modal"/> component from <InlineCode code="svelteBlocks/components/Modal.svelte"/>.</Text>
+<Header type="h1" id="modal">
+    Modal
+</Header>
+<Text>To get started, import <InlineCode code="Modal" /> component from <InlineCode code="svelteBlocks/components/Modal.svelte" />.</Text>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">lang</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;ts&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line added"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">import</span><span style="color: var(--shiki-color-text)"> Modal </span><span style="color: var(--shiki-token-keyword)">from</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;svelteBlocks/components/Modal.svelte&#39;</span><span style="color: var(--shiki-color-text)">;</span><span style="color: var(--shiki-token-comment)"></span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">&lt;/</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"></span></code></pre></Code>
-<Text>Now bind param <InlineCode code="open"/> to variable <InlineCode code="modalIsOpen"/>.</Text>
+<Text>Now bind param <InlineCode code="open" /> to variable <InlineCode code="modalIsOpen" />.</Text>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">lang</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;ts&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">import</span><span style="color: var(--shiki-color-text)"> Modal </span><span style="color: var(--shiki-token-keyword)">from</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;svelteBlocks/components/Modal.svelte&#39;</span><span style="color: var(--shiki-color-text)">;</span></span>
 <span class="line added"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> modalIsOpen</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-constant)">boolean</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">false</span><span style="color: var(--shiki-token-comment)"></span></span>
@@ -58,7 +60,9 @@
     Open
 </Button>
 <Space />
-<Header type="h2" text="Configuration" />
+<Header type="h2" id="configuration">
+    Configuration
+</Header>
 <Text>By passing param config you can change the way the Modal open,width,height and others.<br/>
 Let's make the modal full screen, open from left side and a max width of 200px.</Text>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">lang</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;ts&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>

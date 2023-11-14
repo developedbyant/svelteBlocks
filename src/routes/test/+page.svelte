@@ -7,10 +7,12 @@
     import Switch from 'svelteBlocks/components/Switch.svelte';
     import Modal from 'svelteBlocks/components/Modal.svelte';
     import Search from 'svelteBlocks/components/Search.svelte';
+    import Icon from "kitDocs/icons/Github.svelte"
     //
     let modalOpen = false
 </script>
 
+<Icon class="icon"/>
 <Flex gap="20px">
     <Search />
     <InputChips value={["hi","hello"]}/>

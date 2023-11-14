@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { metaTagsStore } from "kitDocs/stores";
+    import { metaTagsStore } from "kitDocs/lib/stores";
     // set meta data
     metaTagsStore.update(data=>{ data.title="Button";data.description="Add a styled button."; return data })
     import Header from 'kitDocs/components/Header.svelte';
@@ -20,12 +20,16 @@
     }
 </script>
 
-<Header type="h1" text="Button" />
-<Text>To add a styled button to your project run <InlineCode code="npx svelte-blocks@latest button"/></Text>
+<Header type="h1" id="button">
+    Button
+</Header>
+<Text>To add a styled button to your project run <InlineCode code="npx svelte-blocks@latest button" /></Text>
 <Button>Click</Button>
 <Space />
-<Header type="h2" text="Using component" />
-<Text>Import Button from svelteBlocks <InlineCode code="import Button from &#39;svelteBlocks/components/Button.svelte&#39;"/></Text>
+<Header type="h2" id="using-component">
+    Using component
+</Header>
+<Text>Import Button from svelteBlocks <InlineCode code="import Button from &#39;svelteBlocks/components/Button.svelte&#39;" /></Text>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">lang</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;ts&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line added"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">import</span><span style="color: var(--shiki-color-text)"> Button </span><span style="color: var(--shiki-token-keyword)">from</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;svelteBlocks/components/Button.svelte&#39;</span><span style="color: var(--shiki-color-text)">;</span><span style="color: var(--shiki-token-comment)"></span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">&lt;/</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
@@ -34,7 +38,9 @@
 <Text>Button preview.</Text>
 <Button>Button</Button>
 <Space />
-<Header type="h2" text="Changing button style" />
+<Header type="h2" id="changing-button-style">
+    Changing button style
+</Header>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-token-comment)">&lt;!-- Outline --&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-constant)">Button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">config</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&#123;&#123; outline</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-constant)">true</span><span style="color: var(--shiki-color-text)"> }}&gt;Outline&lt;/</span><span style="color: var(--shiki-token-constant)">Button</span><span style="color: var(--shiki-color-text)">&gt;</span></span></code></pre></Code>
 <!-- Outline -->
@@ -52,12 +58,16 @@
 <!-- Full size and rounded -->
 <Button config={{ full:true,rounded:true }}>FullRounded</Button>
 <Space />
-<Header type="h2" text="Loader" />
-<Text>By passing the <InlineCode code="loading"/> param you can disable and add loading spinner to button.</Text>
+<Header type="h2" id="loader">
+    Loader
+</Header>
+<Text>By passing the <InlineCode code="loading" /> param you can disable and add loading spinner to button.</Text>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">Button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">loading</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-token-string)">&#123;true}</span><span style="color: var(--shiki-color-text)">&gt;ClickMe&lt;/</span><span style="color: var(--shiki-token-string-expression)">Button</span><span style="color: var(--shiki-color-text)">&gt;</span></span></code></pre></Code>
 <Button loading={true}>ClickMe</Button>
 <Space />
-<Header type="h2" text="Listen to events" />
+<Header type="h2" id="listen-to-events">
+    Listen to events
+</Header>
 <Text>Let's add loading when user click on button and remove after 2 seconds.</Text>
 <Code><pre class="shiki css-variables" style="background-color: var(--shiki-color-background)" tabindex="-1"><code><span class="line"><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> loading</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-constant)">boolean</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">false</span></span>
