@@ -1,0 +1,407 @@
+{
+    "projectName": "kitDocs",
+    "navLinks": [
+        {
+            "text": "Home",
+            "href": "/",
+            "external": false
+        },
+        {
+            "text": "Documentation",
+            "href": "/docs",
+            "external": false
+        },
+        {
+            "text": "Svelte",
+            "href": "https://svelte.dev/",
+            "external": true
+        }
+    ],
+    "socialMedias": {
+        "twitter": "https://twitter.com/developedbyant",
+        "github": "https://github.com/developedbyant/kitdocs"
+    },
+    "footer": {
+        "links": [
+            {
+                "title": "Resources",
+                "links": [
+                    {
+                        "text": "Home",
+                        "href": "/",
+                        "external": false
+                    },
+                    {
+                        "text": "Svelte",
+                        "href": "https://svelte.dev/",
+                        "external": true
+                    }
+                ]
+            }
+        ]
+    },
+    "kitDocs": {
+        "Introduction": [
+            {
+                "title": "Installation",
+                "href": "/docs",
+                "description": "How to install kitDocs.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "what-is-kitdocs",
+                        "text": "What is kitDocs"
+                    }
+                ]
+            }
+        ],
+        "Examples": [
+            {
+                "title": "Form",
+                "href": "/docs/examples/form",
+                "description": "Example of a form using svelteBlocks.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "form-example",
+                        "text": "Form example"
+                    },
+                    {
+                        "id": "install-components",
+                        "text": "Install components"
+                    },
+                    {
+                        "id": "example",
+                        "text": "Example"
+                    }
+                ]
+            }
+        ],
+        "Components": [
+            {
+                "title": "Avatar",
+                "href": "/docs/components/avatar",
+                "description": "A beautiful and customizable avatar component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "avatar",
+                        "text": "Avatar"
+                    },
+                    {
+                        "id": "add-component",
+                        "text": "Add component"
+                    },
+                    {
+                        "id": "type",
+                        "text": "Type"
+                    },
+                    {
+                        "id": "using-component",
+                        "text": "Using component"
+                    },
+                    {
+                        "id": "set-image-src",
+                        "text": "Set image src"
+                    },
+                    {
+                        "id": "set-width",
+                        "text": "Set width"
+                    }
+                ]
+            },
+            {
+                "title": "Button",
+                "href": "/docs/components/button",
+                "description": "A beautiful and customizable button component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "button",
+                        "text": "Button"
+                    },
+                    {
+                        "id": "add-component",
+                        "text": "Add component"
+                    },
+                    {
+                        "id": "type",
+                        "text": "Type"
+                    },
+                    {
+                        "id": "using-component",
+                        "text": "Using component"
+                    },
+                    {
+                        "id": "changing-style",
+                        "text": "Changing style"
+                    },
+                    {
+                        "id": "error",
+                        "text": "Error"
+                    },
+                    {
+                        "id": "outline",
+                        "text": "Outline"
+                    },
+                    {
+                        "id": "events",
+                        "text": "Events"
+                    },
+                    {
+                        "id": "data-attributes",
+                        "text": "Data attributes"
+                    },
+                    {
+                        "id": "loading",
+                        "text": "Loading"
+                    },
+                    {
+                        "id": "rounded",
+                        "text": "Rounded"
+                    },
+                    {
+                        "id": "full-width",
+                        "text": "Full width"
+                    },
+                    {
+                        "id": "button-as-link",
+                        "text": "Button as link"
+                    }
+                ]
+            },
+            {
+                "title": "Chip",
+                "href": "/docs/components/chip",
+                "description": "A beautiful and customizable chip component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "chip-component",
+                        "text": "Chip component"
+                    },
+                    {
+                        "id": "add-component",
+                        "text": "Add component"
+                    },
+                    {
+                        "id": "type",
+                        "text": "Type"
+                    },
+                    {
+                        "id": "using-component",
+                        "text": "Using component"
+                    },
+                    {
+                        "id": "variants",
+                        "text": "Variants"
+                    },
+                    {
+                        "id": "error",
+                        "text": "error"
+                    },
+                    {
+                        "id": "outline",
+                        "text": "outline"
+                    },
+                    {
+                        "id": "primary",
+                        "text": "primary"
+                    },
+                    {
+                        "id": "chip-as-link",
+                        "text": "Chip as link"
+                    }
+                ]
+            },
+            {
+                "title": "Header",
+                "href": "/docs/components/header",
+                "description": "A beautiful and customizable header component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "header",
+                        "text": "Header"
+                    },
+                    {
+                        "id": "add-header-to-project",
+                        "text": "Add Header to project"
+                    },
+                    {
+                        "id": "using-header",
+                        "text": "Using header"
+                    }
+                ]
+            },
+            {
+                "title": "InputChips",
+                "href": "/docs/components/input-chips",
+                "description": "A beautiful and customizable input component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "inputchips",
+                        "text": "InputChips"
+                    },
+                    {
+                        "id": "add-inputchips-to-project",
+                        "text": "Add InputChips to project"
+                    },
+                    {
+                        "id": "using-input",
+                        "text": "Using input"
+                    },
+                    {
+                        "id": "type-data",
+                        "text": "Type data"
+                    },
+                    {
+                        "id": "props-and-events",
+                        "text": "Props and events"
+                    }
+                ]
+            },
+            {
+                "title": "Input",
+                "href": "/docs/components/input",
+                "description": "A beautiful and customizable input component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "input",
+                        "text": "Input"
+                    },
+                    {
+                        "id": "add-input-to-project",
+                        "text": "Add Input to project"
+                    },
+                    {
+                        "id": "using-input",
+                        "text": "Using input"
+                    },
+                    {
+                        "id": "input-type",
+                        "text": "Input type"
+                    },
+                    {
+                        "id": "props-and-events",
+                        "text": "Props and events"
+                    }
+                ]
+            },
+            {
+                "title": "Label",
+                "href": "/docs/components/label",
+                "description": "A beautiful and customizable label component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "label",
+                        "text": "Label"
+                    },
+                    {
+                        "id": "add-label-to-project",
+                        "text": "Add Label to project"
+                    },
+                    {
+                        "id": "using-label",
+                        "text": "Using label"
+                    },
+                    {
+                        "id": "type-data",
+                        "text": "Type data"
+                    },
+                    {
+                        "id": "props-and-events",
+                        "text": "Props and events"
+                    }
+                ]
+            },
+            {
+                "title": "TextArea",
+                "href": "/docs/components/text-area",
+                "description": "A beautiful and customizable TextArea component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "textarea",
+                        "text": "TextArea"
+                    },
+                    {
+                        "id": "add-textarea-to-project",
+                        "text": "Add TextArea to project"
+                    },
+                    {
+                        "id": "using-textarea",
+                        "text": "Using TextArea"
+                    },
+                    {
+                        "id": "type-data",
+                        "text": "Type data"
+                    },
+                    {
+                        "id": "props-and-events",
+                        "text": "Props and events"
+                    }
+                ]
+            },
+            {
+                "title": "TextDivider",
+                "href": "/docs/components/text-divider",
+                "description": "A beautiful and customizable label component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "label",
+                        "text": "Label"
+                    },
+                    {
+                        "id": "add-label-to-project",
+                        "text": "Add Label to project"
+                    },
+                    {
+                        "id": "using-label",
+                        "text": "Using label"
+                    },
+                    {
+                        "id": "type-data",
+                        "text": "Type data"
+                    },
+                    {
+                        "id": "props-and-events",
+                        "text": "Props and events"
+                    }
+                ]
+            },
+            {
+                "title": "Toggle",
+                "href": "/docs/components/toggle",
+                "description": "A beautiful and customizable label component.",
+                "new": false,
+                "pageLinks": [
+                    {
+                        "id": "label",
+                        "text": "Label"
+                    },
+                    {
+                        "id": "add-label-to-project",
+                        "text": "Add Label to project"
+                    },
+                    {
+                        "id": "using-label",
+                        "text": "Using label"
+                    },
+                    {
+                        "id": "type-data",
+                        "text": "Type data"
+                    },
+                    {
+                        "id": "props-and-events",
+                        "text": "Props and events"
+                    }
+                ]
+            }
+        ]
+    }
+}

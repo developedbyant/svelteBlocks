@@ -1,84 +1,103 @@
 ---
 layout: Components
 title: Button
-description: Add a styled button.
+description: A beautiful and customizable button component.
 ---
 ```js [CODE]
-    import Button from 'svelteBlocks/components/Button.svelte';
-    let loading:boolean = false
-    async function handleClick(){
-        // set loading
-        loading = true
-        // wait 2 seconds
-        await new Promise(r=>setTimeout(r,2000))
-        // remove loading after 2 seconds
-        loading = false
-    }
+import Button from "src/blocks/Button.svelte";
+// function for button
+const onclick = ()=> alert("Button was clicked")
 ```
 # Button
-To add a styled button to your project run `npx svelte-blocks@latest button`
-```svelte [ADD]
-<Button>Click</Button>
+Add a beautiful and customizable button component to your project.
+
+## Add component
+```bash
+npx svelte-blocks@latest button
+```
+
+## Type
+The button component can take any of the following type keys.
+```ts
+type button = {
+    children: Snippet;
+    href?:string
+    loading?: boolean;
+    rounded?: boolean;
+    full?: boolean;
+    variant?: "error" | "outline" | "primary";
+    icon?: any;
+}
 ```
 
 ## Using component
-Import Button from svelteBlocks `import Button from 'svelteBlocks/components/Button.svelte'`
-```html
-<script lang="ts">
-    import Button from 'svelteBlocks/components/Button.svelte';//[H]
-</script>
-
-<Button>Button</Button>
+To use component import it from `src/blocks/Button.svelte` and adding it to your page.
+```js
+import Button from "src/blocks/Button.svelte";
 ```
-Button preview.
-```svelte [ADD]
+Add and preview component.
+```svelte [all]
 <Button>Button</Button>
 ```
 
-## Changing button style
-```svelte [ALL]
-<!-- Outline -->
-<Button config={{ outline:true }}>Outline</Button>
-```
-```svelte [ALL]
-<!-- Rounded -->
-<Button config={{ rounded:true }}>Rounded</Button>
-```
-```svelte [ALL]
-<!-- Full size -->
-<Button config={{ full:true }}>Full</Button>
-```
-```svelte [ALL]
-<!-- Full size and rounded -->
-<Button config={{ full:true,rounded:true }}>FullRounded</Button>
+## Changing style
+To change component style you can do it by editing the `src/blocks/styles/blocks.css` and edit css 
+variable `--sb-button-color` and `--sb-button-bg` or passing the `variant` prop to component.
+
+### Error
+```svelte [all]
+<Button variant="error">Button</Button>
 ```
 
-## Loader
-By passing the `loading` param you can disable and add loading spinner to button.
-```html
-<Button loading={true}>ClickMe</Button>
-```
-```svelte [ADD]
-<Button loading={true}>ClickMe</Button>
+### Outline
+```svelte [all]
+<Button variant="outline">Button</Button>
 ```
 
-## Listen to events
-Let's add loading when user click on button and remove after 2 seconds.
-```html
-<script>
-    let loading:boolean = false
-    async function handleClick(){
-        // set loading
-        loading = true
-        // wait 2 seconds
-        await new Promise(r=>setTimeout(r,2000))
-        // remove loading after 2 seconds
-        loading = false
-    }
-</script>
-
-<Button {loading} on:click={handleClick}>ClickMe</Button>
+## Events
+Thanks to svelte5 you can pass any on event that is allow to be pass to a button, 
+example to pass onclick event just pass a function named onclick.<br/>
+Create function
+```js
+const onclick = ()=> alert("Button was clicked")
 ```
-```svelte [ADD]
-<Button {loading} on:click={handleClick}>ClickMe</Button>
+Pass function to button
+```svelte [all]
+<Button {onclick}>ClickMe</Button>
+```
+
+## Data attributes
+Same for data attributes just pass any allow attributes to the component.
+```svelte [all]
+<Button data-test="hi">Button</Button>
+```
+
+## Loading
+Add loading snipper and disable button by passing prop `loading` to component.
+```svelte [all]
+<Button loading>Loading</Button>
+```
+
+## Rounded
+To make button rounded style pass the prop `rounded` to component.
+```svelte [all]
+<Button rounded>Rounded</Button>
+```
+```svelte [all]
+<Button loading rounded>Rounded</Button>
+```
+```svelte [all]
+<Button variant="outline" rounded>Rounded</Button>
+```
+
+## Full width
+If you want the component to take the available with pass prop `full`.
+```svelte [all]
+<Button full>Button</Button>
+```
+
+## Button as link
+To use button component as a link just pass prop `href` and it will turn button into a anchor tag.
+```svelte [all]
+<Button href="/docs/components/chip">Link</Button>
 ```

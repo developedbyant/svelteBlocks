@@ -1,12 +1,7 @@
-import MdPlugin from './src/kitDocs/lib/plugin';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
+import kitDocsPlugin from "./src/kitDocs/lib/plugin";
 
 export default defineConfig({
-	plugins: [sveltekit(),MdPlugin()],
-	server:{
-		hmr:{
-			path:"pages"
-		}
-	}
+	plugins: [kitDocsPlugin(),sveltekit()]
 });

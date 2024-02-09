@@ -1,29 +1,28 @@
 {
-	"name": "kitblocks",
+	"name": "svelteblocks",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"test": "vite build && vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "^1.3.1",
-		"@sveltejs/kit": "^1.27.5",
-		"@types/node": "^20.9.0",
-		"svelte": "^4.2.3",
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"svelte": "^5.0.0-next.1",
 		"svelte-check": "^3.6.0",
-		"tslib": "^2.6.2",
-		"typescript": "^5.2.2",
-		"vite": "^4.5.0"
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.3"
 	},
 	"type": "module",
 	"dependencies": {
-		"globby": "^13.2.2",
-		"marked": "^9.1.6",
-		"shiki": "^0.14.5"
+		"globby": "^14.0.0",
+		"marked": "^12.0.0",
+		"shiki": "0.14.7"
 	}
 }
