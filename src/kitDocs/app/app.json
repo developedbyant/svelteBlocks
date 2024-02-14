@@ -10,11 +10,6 @@
             "text": "Documentation",
             "href": "/docs",
             "external": false
-        },
-        {
-            "text": "Svelte",
-            "href": "https://svelte.dev/",
-            "external": true
         }
     ],
     "socialMedias": {
@@ -47,32 +42,10 @@
                 "href": "/docs",
                 "description": "How to install kitDocs.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "what-is-kitdocs",
                         "text": "What is kitDocs"
-                    }
-                ]
-            }
-        ],
-        "Examples": [
-            {
-                "title": "Form",
-                "href": "/docs/examples/form",
-                "description": "Example of a form using svelteBlocks.",
-                "new": false,
-                "pageLinks": [
-                    {
-                        "id": "form-example",
-                        "text": "Form example"
-                    },
-                    {
-                        "id": "install-components",
-                        "text": "Install components"
-                    },
-                    {
-                        "id": "example",
-                        "text": "Example"
                     }
                 ]
             }
@@ -83,7 +56,7 @@
                 "href": "/docs/components/avatar",
                 "description": "A beautiful and customizable avatar component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "avatar",
                         "text": "Avatar"
@@ -115,7 +88,7 @@
                 "href": "/docs/components/button",
                 "description": "A beautiful and customizable button component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "button",
                         "text": "Button"
@@ -175,7 +148,7 @@
                 "href": "/docs/components/chip",
                 "description": "A beautiful and customizable chip component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "chip-component",
                         "text": "Chip component"
@@ -219,7 +192,7 @@
                 "href": "/docs/components/header",
                 "description": "A beautiful and customizable header component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "header",
                         "text": "Header"
@@ -239,7 +212,7 @@
                 "href": "/docs/components/input-chips",
                 "description": "A beautiful and customizable input component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "inputchips",
                         "text": "InputChips"
@@ -267,7 +240,7 @@
                 "href": "/docs/components/input",
                 "description": "A beautiful and customizable input component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "input",
                         "text": "Input"
@@ -295,7 +268,7 @@
                 "href": "/docs/components/label",
                 "description": "A beautiful and customizable label component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "label",
                         "text": "Label"
@@ -323,7 +296,7 @@
                 "href": "/docs/components/text-area",
                 "description": "A beautiful and customizable TextArea component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "textarea",
                         "text": "TextArea"
@@ -351,7 +324,7 @@
                 "href": "/docs/components/text-divider",
                 "description": "A beautiful and customizable label component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "label",
                         "text": "Label"
@@ -379,7 +352,7 @@
                 "href": "/docs/components/toggle",
                 "description": "A beautiful and customizable label component.",
                 "new": false,
-                "pageLinks": [
+                "headers": [
                     {
                         "id": "label",
                         "text": "Label"
@@ -399,6 +372,28 @@
                     {
                         "id": "props-and-events",
                         "text": "Props and events"
+                    }
+                ]
+            }
+        ],
+        "Examples": [
+            {
+                "title": "Form",
+                "href": "/docs/examples/form",
+                "description": "Example of a form using svelteBlocks.",
+                "new": false,
+                "headers": [
+                    {
+                        "id": "form-example",
+                        "text": "Form example"
+                    },
+                    {
+                        "id": "install-components",
+                        "text": "Install components"
+                    },
+                    {
+                        "id": "example",
+                        "text": "Example"
                     }
                 ]
             }

@@ -1,13 +1,13 @@
 <script lang="ts">
-    export let activeID:string = ""
     import { page } from "$app/stores";
     import { appStore } from "src/kitDocs/lib/stores";
     import appData from "src/kitDocs/app/app.json"
     let linksOpen:boolean = false
     $: links = Object.values(appData.kitDocs).flatMap(data => data.map(item => item))
     $: currentData = links.find(data=>data.href===$page.url.pathname)
-    $: pageLinks = currentData ? currentData.pageLinks : []
+    $: pageLinks = currentData ? currentData.headers : []
     $: scrollY = $appStore.scrollY
+    $: activeID = pageLinks[0].id
 
     // Run this code when scrollY have been set
     $: if(scrollY!==0){

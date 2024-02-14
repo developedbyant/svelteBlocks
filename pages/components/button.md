@@ -9,7 +9,10 @@ import Button from "src/blocks/Button.svelte";
 const onclick = ()=> alert("Button was clicked")
 ```
 # Button
-Add a beautiful and customizable button component to your project.
+Enable users to input and interact with multiline text effortlessly using our TextArea component. Simplify the process of capturing longer messages, comments, or other textual information in your Svelte application.
+```svelte [add]
+<Button>Button</Button>
+```
 
 ## Add component
 ```bash
