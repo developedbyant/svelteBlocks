@@ -13,21 +13,21 @@ import Input from "src/blocks/Input.svelte";
 
 <svelte:head>
     <!-- Primary Meta Tags -->
-    <title>Input | KitDocs</title>
-    <meta name="title" content="Input | KitDocs" />
+    <title>Input | SvelteBlocks</title>
+    <meta name="title" content="Input | SvelteBlocks" />
     <meta name="description" content="A beautiful and customizable input component." />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="/(docs)/docs/components/input" />
-    <meta property="og:title" content="Input | KitDocs" />
+    <meta property="og:url" content="https://svelteblocks.dev/docs/components/input" />
+    <meta property="og:title" content="Input | SvelteBlocks" />
     <meta property="og:description" content="A beautiful and customizable input component." />
-    <meta property="og:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="og:image" content="https://svelteblocks.dev/images/backdrop.png" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="/(docs)/docs/components/input" />
-    <meta property="twitter:title" content="Input | KitDocs" />
+    <meta property="twitter:url" content="https://svelteblocks.dev/docs/components/input" />
+    <meta property="twitter:title" content="Input | SvelteBlocks" />
     <meta property="twitter:description" content="A beautiful and customizable input component." />
-    <meta property="twitter:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="twitter:image" content="https://svelteblocks.dev/images/backdrop.png" />
 </svelte:head>
 <h1 data-section data-md="header" id="input">
     Input

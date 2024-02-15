@@ -38,9 +38,10 @@
     "kitDocs": {
         "Introduction": [
             {
+                "layout": "Introduction",
                 "title": "Installation",
-                "href": "/docs",
                 "description": "How to install kitDocs.",
+                "href": "/docs",
                 "new": false,
                 "headers": [
                     {
@@ -52,9 +53,10 @@
         ],
         "Components": [
             {
+                "layout": "Components",
                 "title": "Avatar",
-                "href": "/docs/components/avatar",
                 "description": "A beautiful and customizable avatar component.",
+                "href": "/docs/components/avatar",
                 "new": false,
                 "headers": [
                     {
@@ -84,9 +86,10 @@
                 ]
             },
             {
+                "layout": "Components",
                 "title": "Button",
-                "href": "/docs/components/button",
                 "description": "A beautiful and customizable button component.",
+                "href": "/docs/components/button",
                 "new": false,
                 "headers": [
                     {
@@ -144,9 +147,10 @@
                 ]
             },
             {
+                "layout": "Components",
                 "title": "Chip",
-                "href": "/docs/components/chip",
                 "description": "A beautiful and customizable chip component.",
+                "href": "/docs/components/chip",
                 "new": false,
                 "headers": [
                     {
@@ -188,9 +192,10 @@
                 ]
             },
             {
+                "layout": "Components",
                 "title": "Header",
-                "href": "/docs/components/header",
                 "description": "A beautiful and customizable header component.",
+                "href": "/docs/components/header",
                 "new": false,
                 "headers": [
                     {
@@ -208,9 +213,10 @@
                 ]
             },
             {
+                "layout": "Components",
                 "title": "InputChips",
-                "href": "/docs/components/input-chips",
                 "description": "A beautiful and customizable input component.",
+                "href": "/docs/components/input-chips",
                 "new": false,
                 "headers": [
                     {
@@ -236,9 +242,10 @@
                 ]
             },
             {
+                "layout": "Components",
                 "title": "Input",
-                "href": "/docs/components/input",
                 "description": "A beautiful and customizable input component.",
+                "href": "/docs/components/input",
                 "new": false,
                 "headers": [
                     {
@@ -264,9 +271,10 @@
                 ]
             },
             {
+                "layout": "Components",
                 "title": "Label",
-                "href": "/docs/components/label",
                 "description": "A beautiful and customizable label component.",
+                "href": "/docs/components/label",
                 "new": false,
                 "headers": [
                     {
@@ -292,9 +300,10 @@
                 ]
             },
             {
+                "layout": "Components",
                 "title": "TextArea",
-                "href": "/docs/components/text-area",
                 "description": "A beautiful and customizable TextArea component.",
+                "href": "/docs/components/text-area",
                 "new": false,
                 "headers": [
                     {
@@ -320,9 +329,10 @@
                 ]
             },
             {
+                "layout": "Components",
                 "title": "TextDivider",
-                "href": "/docs/components/text-divider",
                 "description": "A beautiful and customizable label component.",
+                "href": "/docs/components/text-divider",
                 "new": false,
                 "headers": [
                     {
@@ -348,9 +358,10 @@
                 ]
             },
             {
+                "layout": "Components",
                 "title": "Toggle",
-                "href": "/docs/components/toggle",
                 "description": "A beautiful and customizable label component.",
+                "href": "/docs/components/toggle",
                 "new": false,
                 "headers": [
                     {
@@ -378,9 +389,10 @@
         ],
         "Examples": [
             {
+                "layout": "Examples",
                 "title": "Form",
-                "href": "/docs/examples/form",
                 "description": "Example of a form using svelteBlocks.",
+                "href": "/docs/examples/form",
                 "new": false,
                 "headers": [
                     {

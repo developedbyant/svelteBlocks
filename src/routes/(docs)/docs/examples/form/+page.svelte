@@ -17,21 +17,21 @@ import FormContainer from "src/blocks/FormContainer.svelte";
 
 <svelte:head>
     <!-- Primary Meta Tags -->
-    <title>Form | KitDocs</title>
-    <meta name="title" content="Form | KitDocs" />
+    <title>Form | SvelteBlocks</title>
+    <meta name="title" content="Form | SvelteBlocks" />
     <meta name="description" content="Example of a form using svelteBlocks." />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="/(docs)/docs/examples/form" />
-    <meta property="og:title" content="Form | KitDocs" />
+    <meta property="og:url" content="https://svelteblocks.dev/docs/examples/form" />
+    <meta property="og:title" content="Form | SvelteBlocks" />
     <meta property="og:description" content="Example of a form using svelteBlocks." />
-    <meta property="og:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="og:image" content="https://svelteblocks.dev/images/backdrop.png" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="/(docs)/docs/examples/form" />
-    <meta property="twitter:title" content="Form | KitDocs" />
+    <meta property="twitter:url" content="https://svelteblocks.dev/docs/examples/form" />
+    <meta property="twitter:title" content="Form | SvelteBlocks" />
     <meta property="twitter:description" content="Example of a form using svelteBlocks." />
-    <meta property="twitter:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="twitter:image" content="https://svelteblocks.dev/images/backdrop.png" />
 </svelte:head>
 <h1 data-section data-md="header" id="form-example">
     Form example

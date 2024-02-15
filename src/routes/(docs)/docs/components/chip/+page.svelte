@@ -13,21 +13,21 @@ import Chip from "src/blocks/Chip.svelte";
 
 <svelte:head>
     <!-- Primary Meta Tags -->
-    <title>Chip | KitDocs</title>
-    <meta name="title" content="Chip | KitDocs" />
+    <title>Chip | SvelteBlocks</title>
+    <meta name="title" content="Chip | SvelteBlocks" />
     <meta name="description" content="A beautiful and customizable chip component." />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="/(docs)/docs/components/chip" />
-    <meta property="og:title" content="Chip | KitDocs" />
+    <meta property="og:url" content="https://svelteblocks.dev/docs/components/chip" />
+    <meta property="og:title" content="Chip | SvelteBlocks" />
     <meta property="og:description" content="A beautiful and customizable chip component." />
-    <meta property="og:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="og:image" content="https://svelteblocks.dev/images/backdrop.png" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="/(docs)/docs/components/chip" />
-    <meta property="twitter:title" content="Chip | KitDocs" />
+    <meta property="twitter:url" content="https://svelteblocks.dev/docs/components/chip" />
+    <meta property="twitter:title" content="Chip | SvelteBlocks" />
     <meta property="twitter:description" content="A beautiful and customizable chip component." />
-    <meta property="twitter:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="twitter:image" content="https://svelteblocks.dev/images/backdrop.png" />
 </svelte:head>
 <h1 data-section data-md="header" id="chip-component">
     Chip component

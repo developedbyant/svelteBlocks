@@ -13,21 +13,21 @@ import Avatar from "src/blocks/Avatar.svelte";
 
 <svelte:head>
     <!-- Primary Meta Tags -->
-    <title>Avatar | KitDocs</title>
-    <meta name="title" content="Avatar | KitDocs" />
+    <title>Avatar | SvelteBlocks</title>
+    <meta name="title" content="Avatar | SvelteBlocks" />
     <meta name="description" content="A beautiful and customizable avatar component." />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="/(docs)/docs/components/avatar" />
-    <meta property="og:title" content="Avatar | KitDocs" />
+    <meta property="og:url" content="https://svelteblocks.dev/docs/components/avatar" />
+    <meta property="og:title" content="Avatar | SvelteBlocks" />
     <meta property="og:description" content="A beautiful and customizable avatar component." />
-    <meta property="og:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="og:image" content="https://svelteblocks.dev/images/backdrop.png" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="/(docs)/docs/components/avatar" />
-    <meta property="twitter:title" content="Avatar | KitDocs" />
+    <meta property="twitter:url" content="https://svelteblocks.dev/docs/components/avatar" />
+    <meta property="twitter:title" content="Avatar | SvelteBlocks" />
     <meta property="twitter:description" content="A beautiful and customizable avatar component." />
-    <meta property="twitter:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="twitter:image" content="https://svelteblocks.dev/images/backdrop.png" />
 </svelte:head>
 <h1 data-section data-md="header" id="avatar">
     Avatar

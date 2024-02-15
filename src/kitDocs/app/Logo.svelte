@@ -15,6 +15,6 @@
         min-width: 40px;
         min-height: 40px;
         background: var(--main-color);
-        border-radius: 50%;
+        border-radius: 5px;
     }
 </style>

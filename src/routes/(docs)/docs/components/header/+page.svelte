@@ -13,21 +13,21 @@ import Header from "src/blocks/Header.svelte";
 
 <svelte:head>
     <!-- Primary Meta Tags -->
-    <title>Header | KitDocs</title>
-    <meta name="title" content="Header | KitDocs" />
+    <title>Header | SvelteBlocks</title>
+    <meta name="title" content="Header | SvelteBlocks" />
     <meta name="description" content="A beautiful and customizable header component." />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="/(docs)/docs/components/header" />
-    <meta property="og:title" content="Header | KitDocs" />
+    <meta property="og:url" content="https://svelteblocks.dev/docs/components/header" />
+    <meta property="og:title" content="Header | SvelteBlocks" />
     <meta property="og:description" content="A beautiful and customizable header component." />
-    <meta property="og:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="og:image" content="https://svelteblocks.dev/images/backdrop.png" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="/(docs)/docs/components/header" />
-    <meta property="twitter:title" content="Header | KitDocs" />
+    <meta property="twitter:url" content="https://svelteblocks.dev/docs/components/header" />
+    <meta property="twitter:title" content="Header | SvelteBlocks" />
     <meta property="twitter:description" content="A beautiful and customizable header component." />
-    <meta property="twitter:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="twitter:image" content="https://svelteblocks.dev/images/backdrop.png" />
 </svelte:head>
 <h1 data-section data-md="header" id="header">
     Header

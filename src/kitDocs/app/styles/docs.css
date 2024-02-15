@@ -1,14 +1,14 @@
 :root{ 
     /* app */
-    --background: var(--sb-background);
-    --foreground: var(--sb-foreground);
+    --background:#f9fafb;
+    --foreground:#ffffff;
     --blur-bg: rgb(244 244 244 / 67%);
     --header-color:#444444;
     --text-color:#6B7280;
     --border-color:#eeeeee;
     --icon-color: #aeaeae;
     --max-width:1400px;
-    --main-color:#5bbdbf;
+    --main-color:#8e5bbf;
     --second-color:#7eb2df;
     /* footer */
     --footer-bg:#f0f0f0;
@@ -36,7 +36,7 @@
     --data-label-bg:#383838;
     --data-label-color:#cfcfcf;
     /* button */
-    --button-bg: #5bbdbf;
+    --button-bg: #3a72a3;
     --button-color:#fff;
     /* code */
     --code-bg: rgb(39, 40, 45);
@@ -48,8 +48,8 @@
 /* on dark mode */
 .app.dark{
     /* app */
-    --background: var(--sb-background);
-    --foreground: var(--sb-foreground);
+    --background: radial-gradient(circle at 24.1% 68.8%, rgb(30 23 37) 0%, rgb(0, 0, 0) 99.4%);
+    --foreground: rgb(39, 40, 45);
     --blur-bg: rgba(0,0,0,3%);
     --border-color:rgb(46, 48, 53);
     --header-color:#e9e9e9;
@@ -59,7 +59,7 @@
     --nav-link-color: #ffff;
     --nav-icon-color:#dadada;
     --nav-header-color:#d5d5d5;
-    --nav-active-link-color:#416c6d;
+    --nav-active-link-color:#7d6793;
     /* search */
     --search-bg: #27282D;
     --search-color: #b3b3b3;

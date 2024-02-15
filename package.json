@@ -24,6 +24,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"md-to-svelte": "^0.0.6"
+		"md-to-svelte": "^0.0.10"
 	}
 }

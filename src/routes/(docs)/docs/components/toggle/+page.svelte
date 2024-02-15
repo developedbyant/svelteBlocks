@@ -18,21 +18,21 @@ import FormContainer from "src/blocks/FormContainer.svelte";
 
 <svelte:head>
     <!-- Primary Meta Tags -->
-    <title>Toggle | KitDocs</title>
-    <meta name="title" content="Toggle | KitDocs" />
+    <title>Toggle | SvelteBlocks</title>
+    <meta name="title" content="Toggle | SvelteBlocks" />
     <meta name="description" content="A beautiful and customizable label component." />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="/(docs)/docs/components/toggle" />
-    <meta property="og:title" content="Toggle | KitDocs" />
+    <meta property="og:url" content="https://svelteblocks.dev/docs/components/toggle" />
+    <meta property="og:title" content="Toggle | SvelteBlocks" />
     <meta property="og:description" content="A beautiful and customizable label component." />
-    <meta property="og:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="og:image" content="https://svelteblocks.dev/images/backdrop.png" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="/(docs)/docs/components/toggle" />
-    <meta property="twitter:title" content="Toggle | KitDocs" />
+    <meta property="twitter:url" content="https://svelteblocks.dev/docs/components/toggle" />
+    <meta property="twitter:title" content="Toggle | SvelteBlocks" />
     <meta property="twitter:description" content="A beautiful and customizable label component." />
-    <meta property="twitter:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="twitter:image" content="https://svelteblocks.dev/images/backdrop.png" />
 </svelte:head>
 <h1 data-section data-md="header" id="label">
     Label

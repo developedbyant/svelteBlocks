@@ -13,21 +13,21 @@ import TextArea from "src/blocks/TextArea.svelte";
 
 <svelte:head>
     <!-- Primary Meta Tags -->
-    <title>TextArea | KitDocs</title>
-    <meta name="title" content="TextArea | KitDocs" />
+    <title>TextArea | SvelteBlocks</title>
+    <meta name="title" content="TextArea | SvelteBlocks" />
     <meta name="description" content="A beautiful and customizable TextArea component." />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="/(docs)/docs/components/text-area" />
-    <meta property="og:title" content="TextArea | KitDocs" />
+    <meta property="og:url" content="https://svelteblocks.dev/docs/components/text-area" />
+    <meta property="og:title" content="TextArea | SvelteBlocks" />
     <meta property="og:description" content="A beautiful and customizable TextArea component." />
-    <meta property="og:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="og:image" content="https://svelteblocks.dev/images/backdrop.png" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="/(docs)/docs/components/text-area" />
-    <meta property="twitter:title" content="TextArea | KitDocs" />
+    <meta property="twitter:url" content="https://svelteblocks.dev/docs/components/text-area" />
+    <meta property="twitter:title" content="TextArea | SvelteBlocks" />
     <meta property="twitter:description" content="A beautiful and customizable TextArea component." />
-    <meta property="twitter:image" content="https://developedbyant.com/images/backdrop.png" />
+    <meta property="twitter:image" content="https://svelteblocks.dev/images/backdrop.png" />
 </svelte:head>
 <h1 data-section data-md="header" id="textarea">
     TextArea
